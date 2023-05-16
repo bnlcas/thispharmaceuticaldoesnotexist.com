@@ -5,7 +5,7 @@ const sideEffects = ['Side effects may include drowsiness, mild headaches, and o
 const nameElement = document.getElementById("PharmaName");
 const syndromeElement = document.getElementById("Disease");
 const sideEffectElement = document.getElementById("SideEffects");
-const linksField = document.getElementById("base");
+//const linksField = document.getElementById("base");
 
 document.getElementById("Refresh").onclick = function(event){
     console.log("Pills");
@@ -14,7 +14,7 @@ document.getElementById("Refresh").onclick = function(event){
     syndromeElement.innerHTML = "For " + syndromes[ind];
     sideEffectElement.innerHTML = "*" + sideEffects[ind];
 
-    linksField.innerHTML = "<a id='twitter_button' href='https://twitter.com/intent/tweet?text=" + pharmas[ind] + "%20(" + sideEffects[ind] + ")%20-%20thispharmaceuticaldoesnotexist.com&ref_src=twsrc%5Etfw' class='twitter-hashtag-button' data-show-count='false'>Tweet</a><script async src='https://platform.twitter.com/widgets.js' charset='utf-8' data-size='large'></script><a href='https://openai.com/blog/gpt-3-apps'>Made with GPT-3</a>";
-    twttr.widgets.load()
+    //linksField.innerHTML = "<a id='twitter_button' href='https://twitter.com/intent/tweet?text=" + pharmas[ind] + "%20(" + sideEffects[ind] + ")%20thispharmaceuticaldoesnotexist.com&ref_src=twsrc%5Etfw' class='twitter-hashtag-button' data-show-count='false'>Tweet</a><script src='https://platform.twitter.com/widgets.js' charset='utf-8' data-size='large'></script><a href='https://openai.com/blog/gpt-3-apps'>Made with GPT-3</a>";
+    //twttr.widgets.load(linksField)
 };
 

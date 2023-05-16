@@ -21,6 +21,11 @@ body {
     border-radius: 12px;
 }
 
+#Refresh:hover {
+    background-color: gray;
+    transition: 0.25s;
+}
+
 .links {
     margin-top: 36px;
     display: flex;
@@ -30,4 +35,8 @@ body {
 
 a {
     color: lightgray;
+}
+
+a:hover {
+    color: gray;
 }
