@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-color: #101526;
+    color: lightgray;
+    padding: 36px
+  }
+
+.content {
+    padding:12x;
+}
+
+#SideEffects {
+    font-size: 10pt;
+    height: 25pt;
+}
+
+#Refresh {
+    font-size: 14pt;
+    margin: 12px 4px;
+    padding: 6px 6px;
+    border-radius: 12px;
+}
+
+.links {
+    margin-top: 36px;
+    display: flex;
+    gap: 20px;
+    color: lightgray;
+}
+
+a {
+    color: lightgray;
+}
